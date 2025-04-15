@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="sobre.css">
+  <title>Sobre a empresa</title>
+</head>
+
+<body>
+  <video class="background-video" autoplay muted loop>
+    <source src="videos/galaxy.mp4" type="video/mp4">
+  </video>
+
+  <header>
+    <div class="left">
+      <a href="index.html"><img src="images/Logo.png" alt="logo"></a>
+    </div>
+
+    <ul>
+      <li><a class="nav-link" href="index.html">Home</a></li>
+      <li><a class="nav-link" href="equipe.html">Equipe</a></li>
+      <li><a class="nav-link active" aria-current="page" href="sobre.html">Sobre</a></li>
+    </ul>
+
+    <div class="box-icons">
+      <a href="https://github.com/" target="_blank"><i class='bx bxl-github'></i></a>
+      <a href="https://www.linkedin.com/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+      <a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+    </div>
+  </header>
+
+  <div class="blackhole-box">
+    <video loop autoplay muted playsinline>
+      <source src="videos/blackhole.mp4" type="video/mp4">
+    </video>
+
+  </div>
+
+  <main class="container">
+    <section class="mb-5">
+      <h1 class="section-title">Nossa História</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <p>A ComputerCode nasceu em 2015 com o objetivo de transformar ideias em soluções digitais de alto impacto.
+             Fundada por um grupo de entusiastas da tecnologia, a empresa rapidamente se destacou pelo seu compromisso com a inovação, qualidade e foco no usuário.
+
+            Ao longo dos anos, acumulamos projetos nas áreas de desenvolvimento web, UX/UI design e sistemas empresariais. Nossa equipe é formada por profissionais
+             apaixonados por código e por criar experiências digitais memoráveis. Com uma abordagem centrada no cliente, nos dedicamos a entender as necessidades específicas de cada projeto para entregar soluções personalizadas que gerem resultados tangíveis e eficientes.
+            
+            Não somos apenas uma empresa de tecnologia, mas uma verdadeira parceira de nossos clientes na jornada de transformação digital. Sempre à frente das tendências, nossa missão é 
+            criar soluções que atendam às necessidades específicas de cada cliente, levando em consideração suas particularidades e objetivos. Garantimos que nossos produtos e serviços não só atendam às expectativas, mas as superem.
+            </p>
+          <p>Ao longo dos anos, acumulamos projetos nas áreas de desenvolvimento web, UX/UI design e sistemas
+            empresariais. Nossa equipe é formada por profissionais apaixonados por código e por criar experiências
+            digitais memoráveis.</p>
+        </div>
+        <div class="col-md-6">
+          <img id="zoomImg" src="images/foto da frente da grande empresa de tecnologia ComputerCode.jpeg" alt="Foto da Empresa" class="empresa-img">
+
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="section-title">Por que Fomos Fundados</h2>
+      <p>A motivação por trás da criação da ComputerCode foi a percepção da necessidade de soluções tecnológicas
+        acessíveis, eficientes e com identidade visual marcante. Em um mercado em constante evolução, queríamos
+        construir uma empresa que unisse design e funcionalidade para entregar resultados reais aos nossos clientes.</p>
+    </section>
+
+    <section class="mb-5">
+      <h2 class="section-title">Localização</h2>
+      <p>Estamos localizados no coração de São Paulo, no Parque Tecnológico, onde a criatividade e a inovação se
+        encontram:</p>
+      <address>
+        Rua Orion, 1423 – Bloco B, Sala 805<br>
+        Parque Tecnológico, São Paulo – SP<br>
+        CEP: 04567-290
+      </address>
+    </section>
+<!-- Botão de abrir formulário -->
+<button id="abrirFormularioContato">Entre em contato</button>
+
+<!-- Container do formulário -->
+<div class="form-container" id="formContainer">
+  <form id="formContato">
+    <span class="fechar" id="fecharFormulario">×</span>
+    <h2 class="titulo-formulario">Fale conosco</h2>
+    <input type="text" id="nome" placeholder="Seu nome" required>
+    <input type="email" id="email" placeholder="Seu e-mail" required>
+    <textarea id="mensagem" placeholder="Sua mensagem" required></textarea>
+    <button type="submit" class="botao-enviar">Enviar</button>
+    <div class="mensagem-sucesso" id="mensagemSucesso">
+      Mensagem enviada com sucesso!
+    </div>
+  </form>
+</div>
+  </main>
+
+  <footer class="rodape" id="contato">
+    <div class="rodape-div">
+
+      <div class="rodape-div-1">
+        <div class="rodape-div-1-coluna">
+
+          <a href="index.html"><img src="images/Logo.png"></a>
+          <p>Rua Orion, 1423 – Bloco B, Sala 805
+            <br> Parque Tecnológico, São Paulo – SP
+          </p>
+          <p>CEP: 04567-290</p>
+          <p>CNPJ: 12.345.678/0001-99</p>
+        </div>
+      </div>
+
+      <div class="rodape-div-2">
+        <div class="rodape-div-2-coluna">
+
+          <span><b>Contatos</b></span>
+          <p>contatocomputercode@hotmal.com</p>
+          <p>+55 (11) 98734-7248</p>
+          <p>(11) 4002-8922</p>
+        </div>
+      </div>
+
+      <div class="rodape-div-3">
+        <div class="rodape-div-3-coluna">
+
+          <span><b>Links</b></span>
+          <p><a href="index.html">Home</a></p>
+          <p><a href="equipe.html">Equipe</a></p>
+          <p><a href="sobre.html">Sobre a empresa</a></p>
+
+        </div>
+      </div>
+
+      <div class="rodape-div-4">
+        <div class="rodape-div-4-coluna">
+
+          <span><b>Outros</b></span>
+          <p>Políticas de Privacidade</p>
+        </div>
+      </div>
+
+    </div>
+    <p class="rodape-direitos">ComputerCode©2025 – Todos os Direitos Reservados.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

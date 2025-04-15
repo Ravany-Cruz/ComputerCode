@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="curriculo1.css">
+    <title>Desenvolvedora Web</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            overflow-x: hidden;
+            font-family: Arial, Helvetica, sans-serif;
+            background: transparent;
+        }
+
+        .back-vid {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        .blackhole-box video {
+            width: 100%;
+            margin-top: -23.5%;
+            opacity: 0.2;
+        }
+
+        .resume-container {
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            min-height: 100vh;
+            padding: 2rem;
+            margin-top: 85px;
+        }
+    </style>
+
+</head>
+<script src="scripts/headerScroll.js"></script>
+<body>
+  <video class="back-vid" autoplay muted loop playsinline>
+    <source src="videos/galaxy.mp4" type="video/mp4" />
+  </video>
+
+  <header>
+    <div class="left">
+      <a href="index.html"><img src="images/Logo.png" alt="logo"></a>
+    </div>
+
+    <ul>
+        <li><a class="nav-link" href="index.html">Home</a></li>
+    <li><a class="nav-link" href="equipe.html">Equipe</a></li>
+    <li><a class="nav-link active" aria-current="page" href="sobre.html">Sobre</a></li>
+    </ul>
+
+    <div class="box-icons">
+      <a href="https://github.com/" target="_blank"><i class='bx bxl-github' ></i></a>
+      <a href="https://www.linkedin.com/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+      <a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram-alt' ></i></a>
+    </div>
+  </header>
+
+  <div class="blackhole-box"> 
+    <video loop autoplay muted plays-inline src="videos/blackhole.mp4" type="video/mp4"></video> 
+  </div> 
+
+  <div class="container resume-container">
+    <div class="row">
+      <!-- Sidebar -->
+      <div class="col-lg-4 resume-sidebar">
+        <div class="text-center mb-4">
+          <img src="images/ft-pedro.png" alt="Profile Image" class="profile-img">
+          <h1 class="resume-name">Pedro Lima</h1>
+          <p class="resume-title">Analista de Sistemas</p>
+        </div>
+
+        <div class="mb-4">
+          <div class="contact-item"><div class="contact-icon"><i class="fas fa-phone"></i></div><div>(11) 98765-4321</div></div>
+          <div class="contact-item"><div class="contact-icon"><i class="fas fa-envelope"></i></div><div>pedrol@hotmail.com</div></div>
+          <div class="contact-item"><div class="contact-icon"><i class="fas fa-globe"></i></div><div>www.pedrolima.dev</div></div>
+          <div class="contact-item"><div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div><div>Malhada, BA</div></div>
+        </div>
+
+        <div class="mb-4">
+          <h3 class="text-white mb-3">HABILIDADES</h3>
+          <div class="skill-item"><div class="skill-name">Análise de Requisitos</div><div class="skill-bar"><div class="skill-level" style="width: 95%;"></div></div></div>
+          <div class="skill-item"><div class="skill-name">Gestão de Projetos</div><div class="skill-bar"><div class="skill-level" style="width: 90%;"></div></div></div>
+          <div class="skill-item"><div class="skill-name">Banco de Dados</div><div class="skill-bar"><div class="skill-level" style="width: 85%;"></div></div></div>
+          <div class="skill-item"><div class="skill-name">Programação</div><div class="skill-bar"><div class="skill-level" style="width: 80%;"></div></div></div>
+          <div class="skill-item"><div class="skill-name">Metodologias Ágeis</div><div class="skill-bar"><div class="skill-level" style="width: 75%;"></div></div></div>
+        </div>
+
+        <div class="references">
+          <h3 class="text-white mb-3">REFERÊNCIAS</h3>
+          <div class="reference-item">
+            <div class="reference-name">Roberto Almeida</div>
+            <div class="reference-title">CTO</div>
+            <div>Empresa Tech</div>
+            <div>(11) 1234-5678</div>
+            <div>roberto@empresatech.com</div>
+          </div>
+          <div class="reference-item">
+            <div class="reference-name">Carla Ribeiro</div>
+            <div class="reference-title">Gerente de TI</div>
+            <div>Empresa Sistemas</div>
+            <div>(11) 9876-5432</div>
+            <div>carla@empresasistemas.com</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Content -->
+      <div class="col-lg-8 resume-main">
+        <div class="about-me">
+          <h2 class="section-title">SOBRE MIM</h2>
+          <p>Profissional com sólida formação em Tecnologia da Informação, especializado em análise de sistemas, desenvolvimento de software e gestão de projetos. Ao longo de sua trajetória, atuou em ambientes corporativos dinâmicos, contribuindo para a implementação de soluções inovadoras e a otimização de processos. Destaca-se pela postura analítica, pelo comprometimento com resultados e pela capacidade de liderar equipes multidisciplinares em projetos de alta complexidade.</p>
+        </div>
+
+        <div class="experience mb-4">
+          <h2 class="section-title">EXPERIÊNCIA PROFISSIONAL</h2>
+          <div class="experience-item">
+            <div class="experience-title">Analista de Sistemas Sênior</div>
+            <div class="experience-company">Empresa Tech</div>
+            <div class="experience-date">Janeiro 2018 - Presente</div>
+            <div class="experience-description">
+              <p>Responsável pela análise, especificação e acompanhamento técnico de projetos de software. Atuou diretamente na modernização de sistemas internos, contribuindo para o aumento da eficiência operacional e redução de custos.</p>
+            </div>
+          </div>
+          <div class="experience-item">
+            <div class="experience-title">Analista de Requisitos</div>
+            <div class="experience-company">Empresa Sistemas</div>
+            <div class="experience-date">Março 2015 - Dezembro 2017</div>
+            <div class="experience-description">
+              <p>Realizou levantamento de requisitos, elaboração de documentação funcional e suporte às equipes de desenvolvimento. Trabalhou em estreita colaboração com stakeholders para garantir entregas alinhadas às necessidades do negócio.</p>
+            </div>
+          </div>
+          <div class="experience-item">
+            <div class="experience-title">Programador</div>
+            <div class="experience-company">Empresa Web</div>
+            <div class="experience-date">Maio 2013 - Fevereiro 2015</div>
+            <div class="experience-description">
+              <p>Desenvolveu aplicações web utilizando linguagens como PHP, JavaScript e SQL. Participou de projetos de criação de sistemas internos e portais corporativos, assegurando a performance e a segurança das soluções desenvolvidas.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="education mb-4">
+          <h2 class="section-title">EDUCAÇÃO</h2>
+          <div class="education-item">
+            <div class="education-degree">MBA em Gestão de Projetos de TI</div>
+            <div class="education-school">Universidade de Negócios</div>
+            <div class="education-date">2016 - 2018</div>
+            <p>Formação voltada ao desenvolvimento de competências em liderança de equipes, planejamento estratégico e metodologias ágeis.</p>
+          </div>
+          <div class="education-item">
+            <div class="education-degree">Bacharelado em Sistemas de Informação</div>
+            <div class="education-school">Universidade de Tecnologia</div>
+            <div class="education-date">2009 - 2013</div>
+            <p>Foco em desenvolvimento de sistemas, banco de dados e infraestrutura tecnológica.</p>
+          </div>
+        </div>
+
+        <div class="awards mb-4">
+          <h2 class="section-title">PRÊMIOS</h2>
+          <div class="award-item">
+            <div class="award-name">Profissional de TI do Ano</div>
+            <div class="award-date">2020</div>
+            <p>Reconhecimento concedido pela Associação Brasileira de Tecnologia da Informação pela excelência técnica e contribuições ao setor.</p>
+          </div>
+          <div class="award-item">
+            <div class="award-name">Melhor Projeto de Implementação</div>
+            <div class="award-date">2018</div>
+            <p>Premiação recebida na Conferência Nacional de Sistemas pela entrega de um sistema de alta complexidade com impacto direto nos resultados da organização.</p>
+          </div>
+        </div>
+
+        <div class="hobbies">
+          <h2 class="section-title">HOBBIES</h2>
+          <div class="hobbies-list">
+            <div class="hobby-item"><i class="fas fa-chess hobby-icon"></i> Xadrez</div>
+            <div class="hobby-item"><i class="fas fa-running hobby-icon"></i> Corrida</div>
+            <div class="hobby-item"><i class="fas fa-bicycle hobby-icon"></i> Ciclismo</div>
+            <div class="hobby-item"><i class="fas fa-book hobby-icon"></i> Leitura</div>
+            <div class="hobby-item"><i class="fas fa-code hobby-icon"></i> Programação</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="rodape" id="contato">
+    <div class="rodape-div">
+
+        <div class="rodape-div-1">
+            <div class="rodape-div-1-coluna">
+
+                <a href="index.html"><img src="images/Logo.png" ></a>
+                <p>Rua Orion, 1423 – Bloco B, Sala 805
+                   <br> Parque Tecnológico, São Paulo – SP</p>
+                    <p>CEP: 04567-290</p>
+                    <p>CNPJ: 12.345.678/0001-99</p>
+            </div>
+        </div>
+
+        <div class="rodape-div-2">
+            <div class="rodape-div-2-coluna">
+
+                <span><b>Contatos</b></span>
+                <p>contatocomputercode@hotmal.com</p>
+                <p>+55 (11) 98734-7248</p>
+                <p>(11) 4002-8922</p>
+            </div>
+        </div>
+
+        <div class="rodape-div-3">
+            <div class="rodape-div-3-coluna">
+
+                <span><b>Links</b></span>
+                <p><a href="index.html">Home</a></p>
+                <p><a href="equipe.html">Equipe</a></p>
+                <p><a href="sobre.html">Sobre a empresa</a></p>
+        
+            </div>
+        </div>
+
+        <div class="rodape-div-4">
+            <div class="rodape-div-4-coluna">
+
+                <span><b>Outros</b></span>
+                <p>Políticas de Privacidade</p>
+            </div>
+        </div>
+
+    </div>
+    <p class="rodape-direitos">ComputerCode©2025 – Todos os Direitos Reservados.</p>
+</footer>
+</body>
+</html>
